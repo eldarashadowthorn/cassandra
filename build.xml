@@ -16,7 +16,7 @@
 -->
 <project basedir="." default="check" name="apache-cassandra"
          xmlns:if="ant:if"
-         xmlns:unless="ant:unless">
+         xmlns:unless="ant:unle">
 
     <fail message="You need to use Ant of version at least 1.10 to continue.">
       <condition>
